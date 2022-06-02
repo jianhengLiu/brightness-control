@@ -6,7 +6,7 @@ echo "[Unit]
 Description=brightness control script
 
 [Service]
-ExecStart=/usr/local/bin/brightness_control/set_default
+ExecStart=/usr/local/bin/brightness-control/set_default
 Restart=on-failure
 
 [Install]
